@@ -1,0 +1,6 @@
+(venv) PS C:\Users\Nishant.x.1\Downloads\sendto1> python server.py
+Traceback (most recent call last):
+  File "C:\Users\Nishant.x.1\Downloads\sendto1\server.py", line 5, in <module>
+    mcp = FastMCP(name="FlightOps MCP Server", description="Query flight operational data from MongoDB.")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: FastMCP.__init__() got an unexpected keyword argument 'description'
