@@ -1,0 +1,9 @@
+curl -X POST "http://127.0.0.1:8000/invoke" \
+     -H "Content-Type: application/json" \
+     -d '{"tool_name":"get_delay_summary","arguments":{"carrier":"6E","flight_number":215,"date_of_origin":"2024-06-23"}}'
+
+
+llm
+
+from groq_llm import plan_tools
+plan_tools("Show aircraft and delay info for flight 6E215 on June 23 2024")
